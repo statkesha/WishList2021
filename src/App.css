@@ -15,7 +15,7 @@ body {
   justify-content: start;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
+  background: #162e15;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
@@ -40,7 +40,7 @@ h1 {
 .wish-input {
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
-  border: 2px solid #5d0cff;
+  border: 2px solid #0cff28;
   outline: none;
   width: 320px;
   background: transparent;
@@ -59,8 +59,8 @@ h1 {
   outline: none;
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgb(121, 255, 12) 0%,
+    rgb(7, 145, 39) 100%
   );
   color: #fff;
   text-transform: capitalize;
@@ -73,8 +73,8 @@ h1 {
 .wish-button.edit {
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(14, 114, 49) 0%,
+    rgb(116, 255, 17) 100%
   );
   padding: 16px 22px;
 }
@@ -93,8 +93,8 @@ h1 {
   color: #fff;
   background: linear-gradient(
     90deg,
-    rgba(255, 118, 20, 1) 0%,
-    rgba(255, 84, 17, 1) 100%
+    rgb(248, 108, 8) 0%,
+    rgb(122, 42, 11) 100%
   );
 
   padding: 16px;
@@ -105,24 +105,24 @@ h1 {
 .wish-row:nth-child(4n + 1) {
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
-    rgba(155, 0, 250, 1) 100%
+    rgb(255, 12, 12) 0%,
+    rgb(134, 13, 13) 100%
   );
 }
 
 .wish-row:nth-child(4n + 2) {
   background: linear-gradient(
     90deg,
-    rgba(255, 12, 241, 1) 0%,
-    rgba(250, 0, 135, 1) 100%
+    rgb(142, 179, 8) 0%,
+    rgb(246, 250, 0) 100%
   );
 }
 
 .wish-row:nth-child(4n + 3) {
   background: linear-gradient(
     90deg,
-    rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(20, 212, 255) 0%,
+    rgb(53, 17, 255) 100%
   );
 }
 
